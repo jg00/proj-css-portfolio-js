@@ -847,7 +847,7 @@ p {
 /**** Products Page ****/
 .projects-hero {
   background: var(--clr-primary-10);
-  height: 40vh;
+  min-height: calc(40vh - 5rem);
   display: grid;
   place-items: center;
 }
